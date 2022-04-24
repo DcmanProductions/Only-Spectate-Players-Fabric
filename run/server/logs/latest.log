@@ -1,0 +1,79 @@
+[23:53:24] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.18.2 with Fabric Loader 0.13.3
+[23:53:24] [main/INFO] (FabricLoader) Loading 37 mods:
+	- carpet 1.4.66
+	- fabric 0.47.8+1.18.2
+	- fabric-api-base 0.4.3+d7c144a8d2
+	- fabric-api-lookup-api-v1 1.5.6+d7c144a8d2
+	- fabric-biome-api-v1 8.0.1+2873dd57d2
+	- fabric-command-api-v1 1.1.8+d7c144a8d2
+	- fabric-commands-v0 0.2.7+b4f4f6cdd2
+	- fabric-containers-v0 0.1.20+d7c144a8d2
+	- fabric-content-registries-v0 3.0.0+d82b9392d2
+	- fabric-crash-report-info-v1 0.1.10+3ac43d95d2
+	- fabric-data-generation-api-v1 2.0.4+ebd24f87d2
+	- fabric-dimensions-v1 2.1.16+25407454d2
+	- fabric-entity-events-v1 1.4.7+d7c144a8d2
+	- fabric-events-interaction-v0 0.4.18+d7c144a8d2
+	- fabric-events-lifecycle-v0 0.2.12+d7c144a8d2
+	- fabric-game-rule-api-v1 1.0.12+d7c144a8d2
+	- fabric-gametest-api-v1 1.0.13+25407454d2
+	- fabric-item-api-v1 1.3.2+691a79b5d2
+	- fabric-item-groups-v0 0.3.8+3ac43d95d2
+	- fabric-lifecycle-events-v1 2.0.1+25407454d2
+	- fabric-loot-tables-v1 1.0.10+d7c144a8d2
+	- fabric-mining-level-api-v1 2.0.2+d1027f7dd2
+	- fabric-networking-api-v1 1.0.20+d882b915d2
+	- fabric-networking-v0 0.3.7+b4f4f6cdd2
+	- fabric-object-builder-api-v1 2.0.1+d882b915d2
+	- fabric-particles-v1 0.2.11+526dc1acd2
+	- fabric-registry-sync-v0 0.9.5+55dca1a4d2
+	- fabric-rendering-data-attachment-v1 0.3.6+d7c144a8d2
+	- fabric-rendering-fluids-v1 2.0.1+54e5b2ecd2
+	- fabric-resource-conditions-api-v1 2.0.1+d1027f7dd2
+	- fabric-resource-loader-v0 0.4.16+55dca1a4d2
+	- fabric-screen-handler-api-v1 1.1.13+d7c144a8d2
+	- fabric-transfer-api-v1 1.5.12+d882b915d2
+	- fabricloader 0.13.3
+	- java 17
+	- minecraft 1.18.2
+	- osp ${version}
+[23:53:27] [main/WARN] (FabricLoader/Metadata) Mod `osp` (${version}) does not respect SemVer - comparison support is limited.
+[23:53:27] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/drew_/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.11.2+mixin.0.8.5/f4ae569d559b5e3244b67321945261d83ff7ad8e/sponge-mixin-0.11.2+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[23:53:27] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[23:53:28] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_16
+[23:53:28] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
+[23:53:33] [main/WARN] (FabricLoader/Mixin) @Inject(@At("INVOKE")) Shift.BY=3 on fabric-lifecycle-events-v1.mixins.json:server.WorldChunkMixin::handler$zlp000$onLoadBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[23:53:36] [main/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[23:53:41] [main/WARN] (Minecraft) Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[23:53:41] [main/WARN] (Minecraft) Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[23:53:41] [main/WARN] (Minecraft) Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[23:53:41] [main/WARN] (Minecraft) Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[23:53:41] [main/WARN] (Minecraft) Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[23:53:42] [Worker-Main-44/INFO] (Minecraft) Loaded 7 recipes
+[23:53:43] [Worker-Main-44/INFO] (Minecraft) Loaded 1141 advancements
+[23:53:45] [main/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 61 new biomes in 6.548 ms
+[23:53:47] [Server thread/INFO] (Minecraft) Starting minecraft server version 1.18.2
+[23:53:47] [Server thread/INFO] (Minecraft) Loading properties
+[23:53:47] [Server thread/INFO] (Minecraft) Default game type: SURVIVAL
+[23:53:47] [Server thread/INFO] (Minecraft) Generating keypair
+[23:53:47] [Server thread/INFO] (Minecraft) Starting Minecraft server on *:25565
+[23:53:47] [Server thread/INFO] (Minecraft) Using default channel type
+[23:53:48] [Server thread/INFO] (Minecraft) Preparing level "world"
+[23:53:48] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
+[23:53:50] [Worker-Main-26/INFO] (Minecraft) Preparing spawn area: 0%
+[23:53:50] [Worker-Main-40/INFO] (Minecraft) Preparing spawn area: 0%
+[23:53:50] [Worker-Main-42/INFO] (Minecraft) Preparing spawn area: 0%
+[23:53:50] [Worker-Main-38/INFO] (Minecraft) Preparing spawn area: 0%
+[23:53:50] [Worker-Main-46/INFO] (Minecraft) Preparing spawn area: 0%
+[23:53:51] [Worker-Main-29/INFO] (Minecraft) Preparing spawn area: 0%
+[23:53:52] [Worker-Main-24/INFO] (Minecraft) Preparing spawn area: 0%
+[23:53:52] [Worker-Main-41/INFO] (Minecraft) Preparing spawn area: 0%
+[23:53:52] [Worker-Main-24/INFO] (Minecraft) Preparing spawn area: 0%
+[23:53:53] [Worker-Main-30/INFO] (Minecraft) Preparing spawn area: 4%
+[23:53:53] [Worker-Main-35/INFO] (Minecraft) Preparing spawn area: 55%
+[23:53:54] [Server thread/INFO] (Minecraft) Time elapsed: 5507 ms
+[23:53:54] [Server thread/INFO] (Minecraft) Done (5.995s)! For help, type "help"
+[23:56:04] [Server thread/INFO] (Minecraft) Stopping server
+[23:56:04] [Server thread/INFO] (Minecraft) Saving players
+[23:56:04] [Server thread/INFO] (Minecraft) Saving worlds
+[23:56:04] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
